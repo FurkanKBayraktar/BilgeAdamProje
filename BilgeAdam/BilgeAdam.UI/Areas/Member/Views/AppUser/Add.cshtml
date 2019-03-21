@@ -1,0 +1,175 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@using BilgeAdam.Model.Model.Entities
+
+<form action="~/Member/AppUser/Add" method="post" enctype="multipart/form-data">
+    <div class="container-fluid">
+        <a href="@Url.Action("List","AppUser",new { area="Member"})"><div class="btn btn-bitbucket"><i class="fa fa-list"></i> Personel Listesi </div></a>
+        <div class="box panel-body">
+            <h2 class="text-teal"><i class="fa fa-user"></i>Yeni Personel Ekle</h2>
+            <div class="inner">
+                <div class="form-group">
+                    <div class="col-lg-12">
+                        <h3>Personel Bilgileri</h3>
+                        <hr />
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="IdentityNumber">
+                                    Tc Kimlik No
+                                </label>
+                                <input type="text" name="IdentityNumber" maxlength="11" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="UserName">
+                                    Kullanıcı Adı
+                                </label>
+                                <input type="text" required name="UserName" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">
+                                    Şifre
+                                </label>
+                                <input type="password" required name="Password" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Name">
+                                    Ad
+                                </label>
+                                <input type="text" name="Name" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="LastName">
+                                    Soyad
+                                </label>
+                                <input type="text" name="LastName" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Salary">
+                                    Maaş
+                                </label>
+                                <input type="text" name="Salary" class="form-control" value="" />
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="Gender">
+                                    Cinsiyet
+                                </label>
+                                <select name="Gender" class="form-control">
+                                    <option selected value="">Seçiniz</option>
+                                    @foreach (var item in Enum.GetNames(typeof(BilgeAdam.Core.Core.Entity.Enum.Gender)))
+                                    {
+
+                                        <option value="@item">@item</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="Role">
+                                    Rol
+                                </label>
+                                <select name="Role" class="form-control">
+                                    @foreach (var item in Enum.GetNames(typeof(BilgeAdam.Core.Core.Entity.Enum.Role)))
+            {
+                                        <option value="@item">@item</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="Email">
+                                    E-Posta
+                                </label>
+                                <input type="email" name="Email" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Phone">
+                                    Telefon
+                                </label>
+                                <input type="tel" name="Phone" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Birthdate">
+                                    Doğum Tarihi
+                                </label>
+                                <input type="date" name="Birthdate" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="DepartmentID">
+                                    Departman
+                                </label>
+                                <select name="DepartmentID" class="form-control">
+                                    <option selected value="">Seçiniz</option>
+                                    @foreach (var item in TempData["DepartmentListesi"] as List<Department>)
+                                    {
+                                        <option value="@item.ID">@item.DepartmentName</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="StoreID">
+                                    Şube
+                                </label>
+                                <select name="StoreID" class="form-control">
+                                    <option selected value="">Seçiniz</option>
+                                    @foreach (var item in TempData["StoreListesi"] as List<Store>)
+                                    {
+                                        <option value="@item.ID">@item.Name</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="Address">
+                                    Adres
+                                    <textarea class="form-control" name="Address" rows="4" cols="40" placeholder="Adres Giriniz..."></textarea>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="District">
+                                    İlçe
+                                </label>
+                                <input type="text" name="District" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="City">
+                                    İl
+                                </label>
+                                <input type="text" name="City" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Country">
+                                    Ülke
+                                </label>
+                                <input type="text" name="Country" class="form-control" value="" />
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="col-lg-offset-3">
+                                <div class="form-group">
+                                    <label for="Image">
+                                        Fotoğraf Seçiniz
+                                    </label>
+                                    <input type="file" name="Image" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="footer col-lg-3">
+                        <input type="submit" class="form-control btn btn-bitbucket fa fa-floppy-o" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" value="Kaydet" />
+                    </div>
+                </div>
+
+            </div>
+            <br />
+
+        </div>
+    </div>
+</form>
+

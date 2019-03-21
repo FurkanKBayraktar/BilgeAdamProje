@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<BilgeAdam.Model.Model.Entities.Product>
+
+<div class="container-fluid">
+    <a href="@Url.Action("Add","Product",new { area="Member"})"><div class="btn btn-bitbucket"><i class="ion ion-person-add"></i> Yeni Ürün Ekle </div></a>
+    <div class="box panel-body">
+        <div class="col-lg-12">
+            <h3 class="text-teal">Ürün Listesi</h3>
+            <hr />
+            <table class="table table-hover table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Fotoğraf</th>
+                        <th>Barkod</th>
+                        <th>Ürün Kodu</th>
+                        <th>Ürün Adı</th>
+                        <th>Stok Miktarı</th>
+                        <th>Birim</th>
+                        <th>Fiyat</th>
+                        <th>Kategori</th>
+                        <th>Tedarikçi</th>
+                        <th class="col-lg-2">İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><img src="@item.ImagePath" style="display:block" height="30" /></td>
+                            <td>@item.Barcode</td>
+                            <td>@item.ProductCode</td>
+                            <td>@item.Name</td>
+                            <td>@item.UnitsInStock</td>
+                            <td>@item.QuantityPerUnit</td>
+                            <td>@item.Price</td>
+                            <td>@item.Category.Name</td>
+                            <td>@item.Supplier.Name</td>
+                            <th>
+                                <div class="btn btn-justified btn-block text-nowrap">
+                                    <a href="/Member/Product/Update/@item.ID" class="btn btn-success"><i class="fa fa-pencil-square-o"></i> Güncelle </a><a href="/Member/Product/Delete/@item.ID" class="btn btn-danger"><i class="fa fa-times"></i> Sil </a>
+                                </div>
+
+                            </th>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+        <div class="pagedList">
+            @Html.PagedListPager(Model, page => Url.Action("List", "Product", new { page }), PagedListRenderOptions.TwitterBootstrapPager)
+        </div>
+    </div>
+</div>

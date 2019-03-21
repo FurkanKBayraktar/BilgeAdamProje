@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- Bootstrap 3.3.2 -->
+    <script src="~/scripts/angular.min.js"></script>
+    <link href="~/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- FontAwesome 4.3.0 -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons 2.0.0 -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Theme style -->
+    <link href="~/Content/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="~/Content/dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+    <!-- iCheck -->
+    <link href="~/Content/plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
+    <!-- Morris chart -->
+    <link href="~/Content/plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+    <!-- jvectormap -->
+    <link href="~/Content/plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+    <!-- Date Picker -->
+    <link href="~/Content/plugins/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
+    <!-- Daterange picker -->
+    <link href="~/Content/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+    <!-- bootstrap wysihtml5 - text editor -->
+    <link href="~/Content/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="skin-black">
+    <div class="wrapper">
+
+        <header class="main-header">
+            <!-- Logo -->
+            <a href="@Url.Action("Index","Home",new { area="Member"})" class="logo"><b>Bilge Adam Market</b></a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <div class="navbar-custom-menu">
+
+
+                    <ul class="nav navbar-nav">
+                        <li class="nav navbar-nav pull-left">
+                            <a href="~/Member/Cart/Index">
+                                <img class="cart_anchor" width="25" height="20" src="~/Content/images/Shopping.png" />
+                            </a>
+                        </li>
+
+                        <!-- Messages: style can be found in dropdown.less-->
+                        <li class="dropdown messages-menu">
+                            @Html.Action("_Notifications", "Notification", new { area="Member"})
+                        </li>
+                        <!-- Notifications: style can be found in dropdown.less -->
+                        
+                        <!-- Tasks: style can be found in dropdown.less -->
+                       
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="dropdown user user-menu">
+                            <a href="#"><i class="fa fa-user fa-fw"></i> Merhaba @HttpContext.Current.User.Identity.Name</a>
+                        </li>
+                        <li class="divider">
+                            <a href="@Url.Action("Logout","Account",new { area=""})"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <!-- Sidebar user panel -->
+                @*<div class="user-panel">
+                        <div class="pull-left image">
+                            <img src="~/Content/dist/img/user-k.jpg" class="img-circle" alt="User Image" />
+                        </div>
+                        <div class="pull-left info">
+                            <p>Gökay Başar</p>
+                            <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                        </div>
+                    </div>*@
+                <!-- search form -->
+                <form action="#" method="get" class="sidebar-form">
+                    <div class="input-group">
+                        <input type="text" name="q" class="form-control" placeholder="Arama..." />
+                        <span class="input-group-btn">
+                            <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
+                        </span>
+                    </div>
+                </form>
+                <!-- /.search form -->
+                <!-- sidebar menu: : style can be found in sidebar.less -->
+                <ul class="sidebar-menu">
+                    <li class="active treeview">
+                        <a href="@Url.Action("Index","Home",new { area="Member"})">
+                            <i class="fa fa-dashboard"></i> <span>Anasayfa</span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Sell","Sales",new { area="Member"})">
+                            <i class="fa fa-shopping-cart"></i> <span>Satış Yap</span>
+                        </a>
+                    </li>
+
+                    <li class="treeview">
+                        <a href="@Url.Action("List","Order",new { area="Member"})">
+                            <i class="fa fa-upload"></i>
+                            <span>Sipariş-Depo</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="@Url.Action("OrderCreate","Order",new { area="Member"})"><i class="fa fa-circle-o"></i>Sipariş Oluştur</a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i>Sipariş Durumu</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="treeview">
+                        <a href="@Url.Action("List","Product",new { area="Member"})">
+                            <i class="fa fa-barcode"></i>
+                            <span>Ürünler</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="@Url.Action("Add","Product",new { area="Member"})"><i class="fa fa-circle-o"></i> Ürün Ekle</a></li>
+                            <li><a href="@Url.Action("List","Product",new { area="Member"})"><i class="fa fa-circle-o"></i> Stok</a></li>
+                            <li><a href="@Url.Action("ListCount","Product",new { area="Member"})"><i class="fa fa-circle-o"></i> Kritik Seviyenin Altına Düşen Ürünler</a></li>
+                            <li><a href="@Url.Action("List","Category",new { area="Member"})"><i class="fa fa-circle-o"></i> Ürün Kategorileri</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="@Url.Action("List","Customer",new { area="Member"})">
+                            <i class="fa fa-users"></i>
+                            <span>Müşteriler</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="@Url.Action("Add","Customer",new { area="Member"})"><i class="fa fa-circle-o"></i> Yeni Müşteri</a></li>
+                            <li><a href="@Url.Action("List","Customer",new { area="Member"})"><i class="fa fa-circle-o"></i> Müşteri Listesi</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="@Url.Action("List","Supplier",new { area="Member"})">
+                            <i class="fa fa-truck"></i>
+                            <span>Tedarikçi</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="@Url.Action("Add","Supplier",new { area="Member"})"><i class="fa fa-circle-o"></i>Tedarikçi Ekle</a></li>
+                            <li><a href="@Url.Action("List","Supplier",new { area="Member"})"><i class="fa fa-circle-o"></i>Tedarikçi Listesi</a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i>Tedarikçi Hareket Tanımlamaları</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="@Url.Action("List","AppUser",new { area="Member"})">
+                            <i class="fa fa-user"></i>
+                            <span>Personel</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="@Url.Action("Add","AppUser",new { area="Member"})"><i class="fa fa-circle-o"></i>Personel Ekle</a></li>
+                            <li><a href="@Url.Action("List","AppUser",new { area="Member"})"><i class="fa fa-circle-o"></i>Personel Listesi</a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i>Satış Takip Raporu</a></li>
+                            <li class="treeview">
+                                <a href="@Url.Action("List","Department",new { area="Admin"})">
+                                    <i class="fa fa-users"></i>
+                                    <span>Departman</span>
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="@Url.Action("Add","Department",new { area="Admin"})"><i class="fa fa-circle-o"></i>Departman Ekle</a></li>
+                                    <li><a href="@Url.Action("List","Department",new { area="Admin"})"><i class="fa fa-circle-o"></i>Departman Listesi</a></li>
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    
+
+
+                    <li class="treeview">
+                        <a href="@Url.Action("OrderList","Order",new { area="Member"})">
+                            <i class="fa fa-cube"></i>
+                            <span>Depo</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="@Url.Action("OrderList","Order",new { area="Member"})"><i class="fa fa-circle-o"></i>Siparişleri Göster</a>@ViewBag.OrderCount</li>
+
+                        </ul>
+                    </li>
+
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-file"></i>
+                            <span>Muhasebe</span>
+                            <span class="fa fa-angle-left pull-right"></span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li class="treeview">
+                                <a href="@Url.Action("List","Invoice",new { area="Member"})">
+                                    <i class="fa fa-file-text-o"></i>
+                                    <span>Fatura</span>
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="@Url.Action("AddSalesInvoice", "Invoice", new { area = "Member" }) " /><i class="fa fa-circle-o"></i>Yeni Satış Faturası</a></li>
+                                    <li><a href="@Url.Action("AddPurchaseInvoice", "Invoice", new { area = "Member" })" /><i class="fa fa-circle-o"></i>Yeni Alış Faturası</a></li>
+                                    <li><a href="@Url.Action("List", "Invoice", new { area = "Member" })" /><i class="fa fa-circle-o"></i>Fatura Listesi</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>Fatura Rapor</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="@Url.Action("List","Waybill",new { area="Member"})">
+                                    <i class="fa fa-paste"></i>
+                                    <span>İrsaliye</span>
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="@Url.Action("Add","Waybill",new { area="Member"})"><i class="fa fa-circle-o"></i>Yeni İrsaliye</a></li>
+                                    <li><a href="@Url.Action("List","Waybill",new { area="Member"})"><i class="fa fa-circle-o"></i>İrsaliye Listesi</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>İrsaliye Kalem Raporu</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="@Url.Action("List","Bank",new { area="Member"})">
+                                    <i class="fa fa-money"></i>
+                                    <span>Banka</span>
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="@Url.Action("Add","Bank",new { area="Member"})"><i class="fa fa-circle-o"></i>Yeni Banka Hesabı</a></li>
+                                    <li><a href="@Url.Action("List","Bank",new { area="Member"})"><i class="fa fa-circle-o"></i>Banka Listesi</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>Banka Raporu</a></li>
+                                </ul>
+                            </li>
+                            </ul>
+                        </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <i class="fa fa-files-o"></i>
+                                    <span>Raporlar</span>
+                                    <span class="fa fa-angle-left pull-right"></span>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>Stok Takip Raporu</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>Satış Takip Raporu</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>Tedarikçi Hareket Raporu</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>Ürün Liste Raporu</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>Gider Raporu</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>Çalışan Raporu</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>Banka Raporu</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>İrsaliye Kalem Raporu</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>Fatura Rapor</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="@Url.Action("List","Problem",new { area="Member"})">
+                                    <i class="fa fa-edit"></i> <span>Sorun Bildir</span>
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="@Url.Action("Add","Problem",new { area="Member"})"><i class="fa fa-circle-o"></i>Bir Problemim Var!</a></li>
+                                    <li><a href="#"><i class="fa fa-circle-o"></i>Hata Durum Raporu</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+</section>
+            <!-- /.sidebar -->
+        </aside>
+        <!-- Right side column. Contains the navbar and content of the page -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <br /><br />
+                <ol class="breadcrumb">
+                    <li class="active"><a href="@Url.Action("Index","Home",new { area="Member"})" ; class="fa fa-dashboard"></a></li>
+                    <li> @Html.Raw(MvcBreadCrumbs.BreadCrumb.DisplayRaw())</li>
+
+                </ol>
+            </section>
+            <!-- Main content -->
+            <!-- /.content -->
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    @RenderBody()
+                </div>
+            </div>
+        </div><!-- /.content-wrapper -->
+
+    </div>
+
+    <!-- ./wrapper -->
+    <!-- jQuery 2.1.3 -->
+    <script src="~/Content/plugins/jQuery/jQuery-2.1.3.min.js"></script>
+    <!-- jQuery UI 1.11.2 -->
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.min.js" type="text/javascript"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    <!-- Bootstrap 3.3.2 JS -->
+    <script src="~/Content/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- Morris.js charts -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="~/Content/plugins/morris/morris.min.js" type="text/javascript"></script>
+    <!-- Sparkline -->
+    <script src="~/Content/plugins/sparkline/jquery.sparkline.min.js" type="text/javascript"></script>
+    <!-- jvectormap -->
+    <script src="~/Content/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" type="text/javascript"></script>
+    <script src="~/Content/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" type="text/javascript"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="~/Content/plugins/knob/jquery.knob.js" type="text/javascript"></script>
+    <!-- daterangepicker -->
+    <script src="~/Content/plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
+    <!-- datepicker -->
+    <script src="~/Content/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>
+    <!-- Bootstrap WYSIHTML5 -->
+    <script src="~/Content/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
+    <!-- iCheck -->
+    <script src="~/Content/plugins/iCheck/icheck.min.js" type="text/javascript"></script>
+    <!-- Slimscroll -->
+    <script src="~/Content/plugins/slimScroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <!-- FastClick -->
+    <script src='~/Content/plugins/fastclick/fastclick.min.js'></script>
+    <!-- AdminLTE App -->
+    <script src="~/Content/dist/js/app.min.js" type="text/javascript"></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="~/Content/dist/js/pages/dashboard.js" type="text/javascript"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="~/Content/dist/js/demo.js" type="text/javascript"></script>
+
+    <footer class="main-footer">
+        <div class="container-fluid">
+            <div class="pull-right hidden-xs">
+            </div>
+
+            <p>&copy; @DateTime.Now.Year - Gökay Başar - Bilge Adam Market</p>
+        </div><!-- /.container -->
+    </footer>
+
+    @*@RenderSection("js", false)*@
+</body>
+</html>

@@ -1,0 +1,180 @@
+﻿
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@using BilgeAdam.Model.Model.Entities
+@model BilgeAdam.UI.Areas.Member.Models.DTO.AppUserVM
+
+<form action="~/Member/AppUser/Update" method="post" enctype="multipart/form-data">
+    <div class="container-fluid">
+        <div class="box panel-body">
+            <h2 class="text-teal"><i class="fa fa-user"></i>Personel Bilgilerini Güncelle</h2>
+            <div class="inner">
+                <div class="form-group">
+                    <div class="col-lg-12">
+                        <h3>Personel Bilgileri</h3>
+                        <hr />
+                        <div class="col-lg-3">
+                            @Html.HiddenFor(x => x.ID)
+                            <div class="form-group">
+                                <label for="IdentityNumber">
+                                    Tc Kimlik No
+                                </label>
+                                <input type="text" name="IdentityNumber" maxlength="11" class="form-control" value="@Model.IdentityNumber" />
+                            </div>
+                            <div class="form-group">
+                                <label for="UserName">
+                                    Kullanıcı Adı
+                                </label>
+                                <input type="text" required name="UserName" class="form-control" value="@Model.UserName" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">
+                                    Şifre
+                                </label>
+                                <input type="password" required name="Password" class="form-control" value="@Model.Password" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Name">
+                                    Ad
+                                </label>
+                                <input type="text" name="Name" class="form-control" value="@Model.Name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="LastName">
+                                    Soyad
+                                </label>
+                                <input type="text" name="LastName" class="form-control" value="@Model.LastName" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Salary">
+                                    Maaş
+                                </label>
+                                <input type="text" name="Salary" class="form-control" value="@Model.Salary" />
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="Gender">
+                                    Cinsiyet
+                                </label>
+                                <select name="Gender" class="form-control">
+                                    <option selected value="">@Model.Gender</option>
+                                    @foreach (var item in Enum.GetNames(typeof(BilgeAdam.Core.Core.Entity.Enum.Gender)))
+                                    {
+
+                                        <option value="@item">@item</option>
+                                    }
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Role">
+                                    Rol
+                                </label>
+                                <select name="Role" class="form-control">
+                                    <option selected value="">@Model.Role</option>
+                                    @foreach (var item in Enum.GetNames(typeof(BilgeAdam.Core.Core.Entity.Enum.Role)))
+            {
+                                        <option value="@item">@item</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="Email">
+                                    E-Posta
+                                </label>
+                                <input type="email" name="Email" class="form-control" value="@Model.Email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Phone">
+                                    Telefon
+                                </label>
+                                <input type="tel" name="Phone" class="form-control" value="@Model.Phone" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Birthdate">
+                                    Doğum Tarihi
+                                </label>
+                                <input type="datetime" name="Birthdate" class="form-control" value="@Model.Birthdate" />
+                            </div>
+                            <div class="form-group">
+                                <label for="DepartmentID">
+                                    Departman
+                                </label>
+                                <select name="DepartmnetID" class="form-control">
+                                    @foreach (var item in TempData["DepartmentListesi"] as List<Department>)
+                                    {
+                                        <option value="@item.ID">@item.DepartmentName</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="StoreID">
+                                    Şube
+                                </label>
+                                <select name="StoreID" class="form-control">
+                                    @foreach (var item in TempData["StoreListesi"] as List<Store>)
+                                    {
+                                        <option value="@item.ID">@item.Name</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <label for="Address">
+                                    Adres
+                                    <textarea class="form-control" name="Address" rows="4" cols="40" placeholder="Adres Giriniz...">@Model.Address</textarea>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="District">
+                                    İlçe
+                                </label>
+                                <input type="text" name="District" class="form-control" value="@Model.District" />
+                            </div>
+                            <div class="form-group">
+                                <label for="City">
+                                    İl
+                                </label>
+                                <input type="text" name="City" class="form-control" value="@Model.City" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Country">
+                                    Ülke
+                                </label>
+                                <input type="text" name="Country" class="form-control" value="@Model.Country" />
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="col-lg-offset-3">
+                                <div class="form-group">
+                                    <img src="@Model.ImagePath" width="250" class="img-rounded" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="Image">
+                                        Fotoğraf Seçiniz
+                                    </label>
+                                    <input type="file" name="Image" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-12">
+                    <div class="footer col-lg-3">
+                        <input type="submit" class="form-control btn btn-bitbucket fa fa-floppy-o" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" value="Güncelle" />
+                    </div>
+                </div>
+
+            </div>
+            <br />
+
+        </div>
+    </div>
+</form>
+
+

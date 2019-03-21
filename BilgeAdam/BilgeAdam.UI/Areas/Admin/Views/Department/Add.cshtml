@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<form action="~/Admin/Department/Add" method="post">
+    <div class="container-fluid">
+        <a href="@Url.Action("List","Department",new { area="Admin"})"><div class="btn btn-bitbucket"><i class="fa fa-list"></i> Departman Listesi </div></a>
+        <div class="box panel-body">
+            <h2 class="text-teal"><i class="fa fa-user"></i>Departman Ekle</h2>
+            <div class="inner">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h3>Departman Bilgileri</h3>
+                            <hr />
+                            <div class="col-lg-12">
+                                <label for="DepartmentName">
+                                    Departman Adı
+                                </label>
+                                <input type="text" name="DepartmentName" class="form-control" value="" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="footer col-lg-3">
+                    <input type="submit" class="form-control btn btn-bitbucket fa fa-floppy-o" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" value="Kaydet" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+

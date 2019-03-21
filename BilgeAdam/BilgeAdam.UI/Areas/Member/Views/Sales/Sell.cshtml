@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "Sell";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<BilgeAdam.Model.Model.Entities.Customer>
+
+
+<div class="container-fluid">
+    <a href="@Url.Action("Add","Customer",new { area="Member"})"><div class="btn btn-bitbucket", style="background-color:teal; color:white"><i class="ion ion-person-add"></i> Yeni Müşteri Ekle </div></a>
+    <div class="box panel-heading">
+        <h2 class="text-teal"><i class="ion ion-pricetags"></i>Satış Yap</h2>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="box-body", style="border-color:teal">
+                    @using (Html.BeginForm("Sell", "Sales", FormMethod.Get))
+                    {
+                        @Html.TextBox("searching", "", new { style = "width:90%", placeholder="Ara.." })<input type="submit" style="width:10%;color:teal" value="Search" />
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="box panel-body">
+        <div class="col-lg-12">
+            <h3 class="text-teal">Müşteri Listesi</h3>
+            <hr />
+            <table class="table table-hover table-bordered table-striped"; style="float:left">
+                <thead cl>
+                    <tr>
+                        <th class="col-lg-2">İşlem</th>
+                        <th>Tc Kimlik No.</th>
+                        <th>Adı Soyadı</th>
+                        <th>Yetkili</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Count() == 0)
+                    {
+                        <tr>
+                            <td colspan="3" style="color:red">
+                                Girilen Değer Bulunmuyor!
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        foreach (var item in Model)
+                        {
+
+                            <tr>
+                                <td><a href="/Member/Invoice/Add/@item.ID" class="btn btn-group-justified btn-bitbucket"; style="background-color:teal; color:white">Satış Yap </a></td>
+                                <td>@item.TaxNumber</td>
+                                <td>@item.Name</td>
+                                <td>@item.ContactName</td>
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+            </table>
+        </div>
+        <div class="pagedList">
+            @Html.PagedListPager(Model, page => Url.Action("Sell", "Sales", new { page }), PagedListRenderOptions.TwitterBootstrapPager)
+        </div>
+    </div>
+</div>
+
+

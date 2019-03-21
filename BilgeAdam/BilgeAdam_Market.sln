@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Core", "BilgeAdam.Core\BilgeAdam.Core.csproj", "{D8BA3468-3BC3-4D39-9E73-7ECABA30648B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.DAL", "BilgeAdam.DAL\BilgeAdam.DAL.csproj", "{F9D8EEDA-068A-49B7-8FD1-4E9DE65E75E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Map", "BilgeAdam.Map\BilgeAdam.Map.csproj", "{DD4A498E-F061-420A-85D7-D5C03A85D6CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Model", "BilgeAdam.Model\BilgeAdam.Model.csproj", "{AA8C8A1A-940A-4F42-BF8F-5AF28D134D68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Utility", "BilgeAdam.Utility\BilgeAdam.Utility.csproj", "{7DD8BD4A-8D32-4A2E-8B6C-AED6E4A1549A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Service", "BilgeAdam.Service\BilgeAdam.Service.csproj", "{45C96BBD-A030-4E1F-9F4B-B8B384E57578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.UI", "BilgeAdam.UI\BilgeAdam.UI.csproj", "{C2E7D404-A285-4EE5-97B6-A225089EF697}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8BA3468-3BC3-4D39-9E73-7ECABA30648B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BA3468-3BC3-4D39-9E73-7ECABA30648B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BA3468-3BC3-4D39-9E73-7ECABA30648B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BA3468-3BC3-4D39-9E73-7ECABA30648B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D8EEDA-068A-49B7-8FD1-4E9DE65E75E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D8EEDA-068A-49B7-8FD1-4E9DE65E75E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D8EEDA-068A-49B7-8FD1-4E9DE65E75E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D8EEDA-068A-49B7-8FD1-4E9DE65E75E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4A498E-F061-420A-85D7-D5C03A85D6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4A498E-F061-420A-85D7-D5C03A85D6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4A498E-F061-420A-85D7-D5C03A85D6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4A498E-F061-420A-85D7-D5C03A85D6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA8C8A1A-940A-4F42-BF8F-5AF28D134D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8C8A1A-940A-4F42-BF8F-5AF28D134D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8C8A1A-940A-4F42-BF8F-5AF28D134D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8C8A1A-940A-4F42-BF8F-5AF28D134D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD8BD4A-8D32-4A2E-8B6C-AED6E4A1549A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD8BD4A-8D32-4A2E-8B6C-AED6E4A1549A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD8BD4A-8D32-4A2E-8B6C-AED6E4A1549A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD8BD4A-8D32-4A2E-8B6C-AED6E4A1549A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C96BBD-A030-4E1F-9F4B-B8B384E57578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C96BBD-A030-4E1F-9F4B-B8B384E57578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C96BBD-A030-4E1F-9F4B-B8B384E57578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C96BBD-A030-4E1F-9F4B-B8B384E57578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E7D404-A285-4EE5-97B6-A225089EF697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E7D404-A285-4EE5-97B6-A225089EF697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E7D404-A285-4EE5-97B6-A225089EF697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E7D404-A285-4EE5-97B6-A225089EF697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

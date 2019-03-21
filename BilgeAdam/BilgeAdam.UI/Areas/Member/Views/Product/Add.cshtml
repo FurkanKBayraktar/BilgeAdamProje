@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@using BilgeAdam.Model.Model.Entities
+
+<form action="~/Member/Product/Add" method="post" enctype="multipart/form-data">
+    <div class="container-fluid">
+        <a href="@Url.Action("List","Product",new { area="Member"})"><div class="btn btn-bitbucket"><i class="fa fa-list"></i> Ürün Stok Listesi </div></a>
+        <div class="box panel-body">
+            <h2 class="text-teal"><i class="fa fa-user"></i>Yeni Ürün Ekle</h2>
+            <div class="inner">
+                <div class="form-group">
+                    <div class="col-lg-12">
+                        <h3>Ürün Bilgileri</h3>
+                        <hr />
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="Barcode">
+                                    Barkod
+                                </label>
+                                <input type="text" name="Barcode" class="form-control" maxlength="13" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="ProductCode">
+                                    Ürün Kodu
+                                </label>
+                                <input type="text" name="ProductCode" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Name">
+                                    Ürün Adı
+                                </label>
+                                <input type="text" name="Name" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="UnitsInStock">
+                                    Stok Miktarı
+                                </label>
+                                <input type="text" name="UnitsInStock" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="QuantityPerUnit">
+                                    Birim
+                                </label>
+                                <input type="text" name="QuantityPerUnit" class="form-control" value="" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Price">
+                                    Fiyat
+                                </label>
+                                <input type="text" name="Price" class="form-control" value="" />
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="col-lg-offset-3">
+                                <div class="form-group">
+                                    <label for="Image">
+                                        Fotoğraf Seçiniz
+                                    </label>
+                                    <input type="file" name="Image" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="CategoryID">
+                                        Kategori Seçiniz...
+                                    </label>
+                                    <select class="form-control" name="CategoryID">
+                                        <option value="">Kategori Seçiniz..</option>
+                                        @foreach (var item in TempData["KategoriListesi"] as List<Category>)
+            {
+                                            <option value="@item.ID">@item.Name</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-lg-offset-9">
+                                    <a target="_blank" href="@Url.Action("Add","Category",new { area="Member"})"><div class="btn btn-bitbucket">Yeni Kategori Ekle </div></a>
+                                </div>
+                                <div class="form-group">
+                                    <label for="SupplierID">
+                                        Tedarikçi Seçiniz...
+                                    </label>
+                                    <select class="form-control" name="SupplierID">
+                                        <option value="">Tedarikçi Seçiniz..</option>
+                                        @foreach (var item in TempData["TedarikciListesi"] as List<Supplier>)
+            {
+                                            <option value="@item.ID">@item.Name</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-lg-offset-9">
+                                    <a target="_blank" href="@Url.Action("Add","Supplier",new { area="Member"})"><div class="btn btn-bitbucket">Yeni Tedarikçi Ekle </div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="footer col-lg-3">
+                            <input type="submit" class="form-control btn btn-bitbucket fa fa-floppy-o" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" value="Kaydet" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</form>
+
+
+

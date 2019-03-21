@@ -1,0 +1,102 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<form action="~/Member/Customer/Add" method="post">
+    <div class="container-fluid">
+        <a href="@Url.Action("List","Customer",new { area="Member"})"><div class="btn btn-bitbucket"><i class="fa fa-list"></i> Müşteri Listesi </div></a>
+        <div class="box panel-body">
+            <h2 class="text-teal"><i class="fa fa-user"></i>Yeni Müşteri Ekle</h2>
+            <div class="inner">
+                <div class="form-group">
+                    <div class="col-lg-12">
+                        <div class="col-lg-3">
+                            <h3>Müşteri Bilgileri</h3>
+                            <hr />
+                            <div class="form-group">
+                                <label for="CustomerCode" class="col-lg-12">
+                                    Müşteri Kodu
+                                    <input type="text" name="CustomerCode" class="form-control" value=""/>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="Name" class="col-lg-12">
+                                    Müşteri Adı Soyadı
+                                    <input type="text" name="Name" class="form-control" value=""/>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="ContactName" class="col-lg-12">
+                                    Yetkili
+                                    <input type="text" name="ContactName" class="form-control" value=""/>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <h3>İletişim Bilgileri</h3>
+                            <hr />
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="Tax" class="col-lg-12">
+                                        Vergi Diresi
+                                        <input type="text" name="Tax" class="form-control" value=""/>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="TaxNumber" class="col-lg-12">
+                                        Vergi No. / Tc Kimlik No
+                                        <input type="text" name="TaxNumber" class="form-control" maxlength="11"/>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Address" class="col-lg-12">
+                                        Adres
+                                        <textarea class="form-control" name="Address" rows="4" cols="40" placeholder="" ></textarea>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="Phone" class="col-lg-12">
+                                        Telefon
+                                        <input type="text" name="Phone" class="form-control" value=""/>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email" class="col-lg-12">
+                                        Email
+                                        <input type="text" name="Email" class="form-control" value=""/>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="İlçe" class="col-lg-12">
+                                        İlçe
+                                        <input type="text" name="District" class="form-control" value=""/>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Şehir" class="col-lg-12">
+                                        Şehir
+                                        <input type="text" name="City" class="form-control" value=""/>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Ülke" class="col-lg-12">
+                                        Ülke
+                                        <input type="text" name="Country" class="form-control" value=""/>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="footer col-lg-3">
+                            <input type="submit" class="form-control btn btn-bitbucket fa fa-floppy-o" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" value="Kaydet" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

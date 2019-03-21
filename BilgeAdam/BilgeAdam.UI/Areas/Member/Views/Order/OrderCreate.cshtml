@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewBag.Title = "OrderCreate";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model IEnumerable<BilgeAdam.Model.Model.Entities.Product>
+
+
+<div class="container-fluid">
+    <div class="box panel-heading">
+        <h2 class="text-teal"><i class="ion ion-pricetags"></i>Sipariş Oluştur</h2>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="box-body" , style="border-color:teal">
+                    @using (Html.BeginForm("OrderCreate", "Order", FormMethod.Get))
+                    {
+                    @Html.TextBox("searching", "", new { style = "width:90%", placeholder = "Ürün Ara.." })<input type="submit" style="width:10%;color:teal" value="Search" />
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box panel-body">
+        <div class="row">
+            <div class="inner">
+                <div class="col-lg-12">
+                    <h3 class="text-teal">Ürün Listesi</h3>
+                    <hr />
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="col-lg-2">İşlem</th>
+                                    <th>Ürün Kodu</th>
+                                    <th>Ürün Adı</th>
+                                    <th>Stok Miktarı</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.Count() == 0)
+                                {
+                                    <tr>
+                                        <td colspan="3" style="color:red">
+                                            Girilen Değer Bulunmuyor!
+                                        </td>
+                                    </tr>
+                                }
+                                else
+                                {
+                                    foreach (var item in Model)
+                                    {
+
+                                        <tr>
+                                            <td>
+                                                <a href="javascript:void(0)" class="add-to-cart">
+                                                    <img src="~/Content/images/cart.png" class="btnCart" val="@item.ID" width="40" height="40" data-toggle="tooltip" data-placement="right" title="Sepete Ekle" />
+                                                </a>
+                                            </td>
+                                            <td>@item.ProductCode</td>
+                                            <td>@item.Name</td>
+                                            <td>@item.UnitsInStock</td>
+                                        </tr>
+                                    }
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/scripts/Cart.js"></script>
+<script src="~/scripts/jquery-3.3.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.add-to-cart').on('click', function () {
+            $('html', 'body').animate({
+                'scrollTop': $(".cart_anchor").position().tops
+                //Tıklanmış olan elemntin bir dış taginden itibaren ilk bulunan yani sıfrıncı indexteki img dosyasını yakalar.
+                //Tıkladığımız resmi yakalar.
+            });
+            var itemImg = $(this).parent().find('img').eq(0);
+            //Tıkladığımız görsel , sağ üst köşedeki sepet görseline doğru uçma animasyonu.
+            flyToElement($(itemImg), $('.cart_anchor'));
+        });
+    });
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+    $(".btnCart").click(function(){
+        var id = $(this).attr("val");
+        $.ajax({
+            type: "POST",
+            dataType: "Json",
+            url: "@Url.Action("Add","Cart")/" + id,
+            success: function (data) {
+
+                //alert(data);
+            }
+        })
+    })
+</script>
+

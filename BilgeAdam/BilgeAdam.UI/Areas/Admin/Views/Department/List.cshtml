@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<BilgeAdam.Model.Model.Entities.Department>
+
+
+<div class="container-fluid">
+    <a href="@Url.Action("Add","Department",new { area="Admin"})"><div class="btn btn-bitbucket"><i class="ion ion-person-add"></i> Departman Ekle </div></a>
+    <div class="box panel-body">
+        <div class="col-lg-12">
+            <table class="table table-hover table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th class="col-lg-9">Kullanıcı Grupları</th>
+                        <th class="col-lg-3">İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.DepartmentName</td>
+
+                            <th>
+                                <div class="btn btn-block btn-group">
+                                    <a href="/Admin/Department/Update/@item.ID" class="btn btn-success"><i class="fa fa-pencil-square-o"></i> Güncelle </a>
+                                    <a href="/Admin/Department/Delete/@item.ID" class="btn btn-danger"><i class="fa fa-times"></i> Sil </a>
+                                </div>
+                            </th>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="pagedList">
+            @Html.PagedListPager(Model, page => Url.Action("List", "Department", new { page }), PagedListRenderOptions.TwitterBootstrapPager)
+        </div>
+    </div>
+</div>
+
+

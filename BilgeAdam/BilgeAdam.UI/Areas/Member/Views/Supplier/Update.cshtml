@@ -1,0 +1,101 @@
+﻿
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model BilgeAdam.UI.Areas.Member.Models.DTO.SupplierVM
+    
+<form action="~/Member/Supplier/Update" method="post">
+    <div style="margin-bottom:100px;">
+        <div class="container-fluid">
+            <div class="box panel-body">
+                <h2 class="text-teal"><i class="fa fa-pencil"></i>Tedarikçi Bilgisi Güncelleme</h2>
+                <div class="inner">
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            <h3>Tedarikçi Bilgileri</h3>
+                            <hr />
+                            @Html.HiddenFor(x => x.ID)
+                            <label for="SupplierCode" class="col-xs-12">
+                                Tedarikçi Kodu
+                                <input type="text" name="SupplierCode" class="form-control" required value="@Model.SupplierCode" />
+                            </label>
+                            <br />
+                            <label for="Name" class="col-xs-12">
+                                Tedarikçi Adı Soyadı
+                                <input type="text" name="Name" class="form-control" value="@Model.Name" />
+                            </label>
+                            <br />
+                            <label for="ContactName" class="col-xs-12">
+                                Yetkili
+                                <input type="text" name="ContactName" class="form-control" value="@Model.ContactName" />
+                            </label>
+                           
+                        </div>
+                        <div class="col-md-9">
+                            <h3>İletişim Bilgileri</h3>
+                            <hr />
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <label for="Tax" class="col-xs-12">
+                                        Vergi Diresi
+                                        <input type="text" name="Tax" class="form-control" value="@Model.Tax" />
+                                    </label>
+                                    <br />
+                                    <label for="TaxNumber" class="col-xs-12">
+                                        Vergi No./Tc Kimlik No
+                                        <input type="text" name="TaxNumber" class="form-control" maxlength="11" value="@Model.TaxNumber" />
+                                    </label>
+                                    <br />
+                                    <label for="Address" class="col-xs-12">
+                                        Adres
+                                        <textarea class="form-control" name="Address" rows="4" cols="40" placeholder="">@Model.Address</textarea>
+                                    </label>
+                                    <br />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <label for="Phone" class="col-xs-12">
+                                        Telefon
+                                        <input type="text" name="Phone" class="form-control" value="@Model.Phone" />
+                                    </label>
+                                    <br />
+                                    <label for="Email" class="col-xs-12">
+                                        Email
+                                        <input type="text" name="Email" class="form-control" value="@Model.Email" />
+                                    </label>
+                                    <br />
+                                    <label for="İlçe" class="col-xs-12">
+                                        İlçe
+                                        <input type="text" name="District" class="form-control" value="@Model.District" />
+                                    </label>
+                                    <br />
+                                    <label for="Şehir" class="col-xs-12">
+                                        Şehir
+                                        <input type="text" name="City" class="form-control" value="@Model.City" />
+                                    </label>
+                                    <br />
+                                    <label for="Ülke" class="col-xs-12">
+                                        Ülke
+                                        <input type="text" name="Country" class="form-control" value="@Model.Country" />
+                                    </label>
+                                    <br />
+                                </div>
+                            </div>
+
+                        </div>
+                       
+                    </div>
+                    <div class="col-lg-3">
+                        <input type="submit" class="form-control btn btn-bitbucket" value="Güncelle" />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</form>

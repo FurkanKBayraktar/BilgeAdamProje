@@ -1,0 +1,360 @@
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\csc.exe
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\vbc.exe
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.UI.dll.config
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.UI.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.UI.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\EntityFramework.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Helpers.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Mvc.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Razor.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Webpages.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\EntityFramework.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Razor.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Webpages.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Helpers.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Mvc.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.csprojResolveAssemblyReference.cache
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Core.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.DAL.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Map.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Model.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Service.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Utility.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Core.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.DAL.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Map.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Model.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Service.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Utility.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\csc.exe.config
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\csc.rsp
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\csi.exe
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\csi.rsp
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\vbc.exe.config
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\vbc.rsp
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\PagedList.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\PagedList.Mvc.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\PagedList.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\PagedList.Mvc.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\MvcBreadCrumbs.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\MvcBreadCrumbs.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\EntityFramework.SqlServer.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.UI\bin\EntityFramework.SqlServer.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.UI.dll.config
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.UI.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.UI.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\csc.exe
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\csc.exe.config
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\csc.rsp
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\csi.exe
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\csi.rsp
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\vbc.exe
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\vbc.exe.config
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\vbc.rsp
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Core.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.DAL.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Map.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Model.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Service.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Utility.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\EntityFramework.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\EntityFramework.SqlServer.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\MvcBreadCrumbs.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\PagedList.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\PagedList.Mvc.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Helpers.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Mvc.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Razor.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.WebPages.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Core.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.DAL.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Map.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Model.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Service.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\BilgeAdam.Utility.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\EntityFramework.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\EntityFramework.SqlServer.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\MvcBreadCrumbs.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\PagedList.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\PagedList.Mvc.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Helpers.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Mvc.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.Razor.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.WebPages.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.csprojResolveAssemblyReference.cache
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.UI.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.UI.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.UI.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\csc.exe
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\csc.exe.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\csc.rsp
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\csi.exe
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\csi.rsp
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\vbc.exe
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\vbc.exe.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\vbc.rsp
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Core.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.DAL.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Map.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Model.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Service.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Utility.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\EntityFramework.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\MvcBreadCrumbs.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\PagedList.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\PagedList.Mvc.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.Helpers.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.Mvc.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.Razor.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.WebPages.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Core.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Core.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.DAL.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.DAL.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Map.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Map.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Model.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Model.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Service.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Service.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Utility.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\BilgeAdam.Utility.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\EntityFramework.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\MvcBreadCrumbs.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\PagedList.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\PagedList.Mvc.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.Helpers.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.Mvc.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.Razor.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.WebPages.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.csprojAssemblyReference.cache
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.csproj.CopyComplete
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.UI.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.UI.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.UI.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\csc.exe
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\csc.exe.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\csc.rsp
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\csi.exe
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\csi.rsp
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\vbc.exe
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\vbc.exe.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\vbc.rsp
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Core.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.DAL.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Map.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Model.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Service.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Utility.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\EntityFramework.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\MvcBreadCrumbs.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\PagedList.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\PagedList.Mvc.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.Helpers.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.Mvc.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.Razor.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.WebPages.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Core.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Core.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.DAL.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.DAL.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Map.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Map.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Model.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Model.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Service.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Service.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Utility.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\BilgeAdam.Utility.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\EntityFramework.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\MvcBreadCrumbs.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\PagedList.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\PagedList.Mvc.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.Helpers.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.Mvc.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.Razor.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.WebPages.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.csprojAssemblyReference.cache
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.csproj.CopyComplete
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.UI\obj\Debug\BilgeAdam.UI.pdb

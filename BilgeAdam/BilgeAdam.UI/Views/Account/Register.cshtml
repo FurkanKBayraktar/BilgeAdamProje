@@ -1,0 +1,193 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+@*---- Include the above in your HEAD tag --------*@
+
+<!DOCTYPE html>
+<html class=''>
+<head>
+    <script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script>
+    <script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script>
+    <script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+    <link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+    <link rel="canonical" href="https://codepen.io/Koziuk-S/pen/jbJydJ?limit=all&page=85&q=form" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <style class="cp-pen-styles">
+        * {
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        #register {
+            padding-top: 50px;
+        }
+
+            #register .form-wrap {
+                width: 30%;
+                margin: 0 auto;
+            }
+
+            #register h1 {
+                color: teal;
+                font-size: 18px;
+                text-align: center;
+                font-weight: bold;
+                padding-bottom: 20px;
+            }
+
+            #register .form-group {
+                margin-bottom: 25px;
+            }
+
+            #register .checkbox {
+                margin-bottom: 20px;
+                position: relative;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                /*-o-user-select: none;*/
+                user-select: none;
+            }
+
+                #register .checkbox.show:before {
+                    content: '\e013';
+                    color: #1fa67b;
+                    font-size: 17px;
+                    margin: 1px 0 0 3px;
+                    position: absolute;
+                    pointer-events: none;
+                    font-family: 'Glyphicons Halflings';
+                }
+
+                #register .checkbox .character-checkbox {
+                    width: 25px;
+                    height: 25px;
+                    cursor: pointer;
+                    border-radius: 3px;
+                    border: 1px solid #ccc;
+                    vertical-align: middle;
+                    display: inline-block;
+                }
+
+                #register .checkbox .label {
+                    color: #6d6d6d;
+                    font-size: 13px;
+                    font-weight: normal;
+                }
+
+            #register .btn.btn-custom {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+
+            #register .forget {
+                font-size: 13px;
+                text-align: center;
+                display: block;
+            }
+
+        /*    --------------------------------------------------
+        :: Inputs & Buttons
+        -------------------------------------------------- */
+        .form-control {
+            color: teal;
+        }
+
+        .btn-custom {
+            color: #fff;
+            background-color: teal;
+        }
+
+            .btn-custom:hover,
+            .btn-custom:focus {
+                color: #fff;
+            }
+
+        /*    --------------------------------------------------
+        :: Footer
+        -------------------------------------------------- */
+        #footer {
+            color: #6d6d6d;
+            font-size: 12px;
+            text-align: center;
+        }
+
+            #footer p {
+                margin-bottom: 0;
+            }
+
+            #footer a {
+                color: inherit;
+            }
+    </style>
+</head>
+<body>
+    <section id="register">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="form-wrap">
+                        <h1 class="title">Kayıt Ol</h1>
+                        <hr />
+
+    
+                        <form role="form" class="form-horizontal" method="post" action="@Url.Action("Register","Account")" autocomplete="">
+
+
+                            <div class="form-group">
+                                <label for="Name" class="sr-only">Kullanıcı Adı</label>
+                                <input type="text" name="Name" id="Name" class="form-control" placeholder="Adınız">
+                            </div>
+                            <div class="form-group">
+                                <label for="LastName" class="sr-only">Soyadınız</label>
+                                <input type="text" name="LastName" id="LastName" class="form-control" placeholder="Soyadınız">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Email" class="sr-only">Soyadınız</label>
+                                <input type="email" name="Email" class="form-control" id="Email" placeholder="E-Posta Adresiniz">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="UserName" class="sr-only">Kullanıcı Adı</label>
+                                <input type="text" name="UserName" id="UserName" class="form-control" placeholder="Kullanıcı Adı">
+                            </div>
+                            <div class="form-group">
+                                <label for="Password" class="sr-only">Şifre</label>
+                                <input type="password" name="Password" id="key" class="form-control" placeholder="Şifre">
+                            </div>
+                            
+
+                            <div class="form-group ">
+                                <button type="submit" class="btn btn-custom btn-lg btn-block">Kayıt Ol</button>
+                                <br />
+                                <a href="@Url.Action("Login","Account")" class="forget" data-toggle="modal" data-target=".forget-modal">Giriş Ekranına Dön</a>
+                            </div>
+                        </form>
+                        <hr />
+                        <footer id="footer">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>&copy; @DateTime.Now.Year</p>
+                                        <p>Powered by <strong>Kudret Aydoğan - Bilge Adam Market</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

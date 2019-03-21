@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@using BilgeAdam.UI.Areas.Admin.Models.DTO
+@model DepartmentVM
+<form action="~/Admin/Department/Update" method="post">
+    <div style="margin-bottom:100px;">
+        <div class="container-fluid">
+            <div class="box panel-body">
+                <h2 class="text-teal"><i class="fa fa-pencil"></i>Kullanıcı Rol Güncelleme</h2>
+                <div class="inner">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <h3>Kullanıcı Rol Bilgileri</h3>
+                            <hr />
+                            <label for="RoleName">
+                                Kullanıcı Grup Adı
+                                <input type="text" name="RoleName" class="form-control" value="@Model.DepartmentName" autofocus />
+                            </label>
+                            <br />
+                            @Html.HiddenFor(x => x.ID)
+                        </div>
+                        <div class="col-lg-3">
+                            <input type="submit" class="form-control btn btn-bitbucket" value="Güncelle" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

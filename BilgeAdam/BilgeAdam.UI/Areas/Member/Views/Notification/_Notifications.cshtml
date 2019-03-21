@@ -1,0 +1,33 @@
+﻿@using BilgeAdam.Model.Model.Entities
+@model IEnumerable<AppUser>
+<li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        <i class="fa fa-bell-o"></i> <i class="fa fa-caret-down"></i>
+    </a>
+    <ul class="dropdown-menu dropdown-messages">
+
+        @foreach (var item in Model)
+        {
+            <li>
+                <a href="@Url.Action("Update","AppUser",new { area="Member",id=item.ID})">
+                    <div>
+                        <strong>@item.FullName</strong>
+                        <span class="pull-right text-muted">
+                            <em>@item.CreatedDate.ToShortDateString()</em>
+                        </span>
+                    </div>
+                    <div>@item.Email</div>
+                </a>
+            </li>
+            <li class="divider"></li>
+        }
+
+
+        <li>
+            <a class="text-center" href="@Url.Action("List","AppUser",new { area="Member"})">
+                <strong>Tüm Eklenenleri Göster</strong>
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+    </ul>
+</li>

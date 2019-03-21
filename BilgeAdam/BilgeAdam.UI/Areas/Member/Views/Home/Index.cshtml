@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="col-lg-4 col-xs-8">
+        <!-- small box -->
+        <div class="small-box bg-maroon">
+            <div class="inner">
+                <h2>Satış Yap</h2>
+            </div>
+            <div class="icon">
+                <i class="ion ion-pricetag"></i>
+            </div>
+            <a href="@Url.Action("Sell","Sales",new { area="Member"})" class="small-box-footer">Satış Sayfasına Git <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-8">
+        <!-- small box -->
+        <div class="small-box bg-teal">
+            <div class="inner">
+                <h2>Sipariş Oluştur</h2>
+            </div>
+            <div class="icon">
+                <i class="ion ion-bag"></i>
+            </div>
+            <a href="@Url.Action("OrderCreate","Order",new { area="Member"})" class="small-box-footer">Sipariş Oluştur <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div><!-- ./col -->
+    <div class="col-lg-4 col-xs-8">
+        <!-- small box -->
+        <div class="small-box bg-red">
+            <div class="inner">
+                <h2>Personeller</h2>
+            </div>
+            <div class="icon">
+                <i class="ion ion-person"></i>
+            </div>
+            <a href="@Url.Action("List","AppUser",new { area="Member"})" class="small-box-footer">Personelleri Görüntüle <i class="fa fa-arrow-circle-right"></i></a>
+
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-8">
+        <!-- small box -->
+        <div class="small-box bg-light-blue">
+            <div class="inner">
+                <h2>Depo</h2>
+            </div>
+            <div class="icon">
+                <i class="ion ion-cube"></i>
+            </div>
+            <a href="@Url.Action("OrderList","Order",new { area="Member"})" class="small-box-footer">Depoyu Görüntüle <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-8">
+        <!-- small box -->
+        <div class="small-box bg-yellow">
+            <div class="inner">
+                <h2>Teknik Destek</h2>
+            </div>
+            <div class="icon">
+                <i class="ion ion-wrench"></i>
+            </div>
+            <a href="#" class="small-box-footer">Sorun Bildir <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-8">
+        <!-- small box -->
+        <div class="small-box bg-green">
+            <div class="inner">
+                <h2>Raporlar</h2>
+            </div>
+            <div class="icon">
+                <i class="ion ion-document-text"></i>
+            </div>
+            <a href="#" class="small-box-footer">Raporları Görüntüle <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+</div>

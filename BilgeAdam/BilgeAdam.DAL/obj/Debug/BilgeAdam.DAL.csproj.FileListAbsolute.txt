@@ -1,0 +1,100 @@
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.dll.config
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Core.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Map.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Model.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Utility.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Core.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Map.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Model.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Utility.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.pdb
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\PagedList.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\PagedList.Mvc.dll
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\PagedList.xml
+C:\Users\Kudret Aydoğan\Desktop\Bilge Adam Market Projesi\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\PagedList.Mvc.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.dll.config
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Core.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Map.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Model.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Utility.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\PagedList.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\PagedList.Mvc.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Core.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Map.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Model.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\BilgeAdam.Utility.pdb
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\PagedList.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\bin\Debug\PagedList.Mvc.xml
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.dll
+C:\Users\Kudret Aydoğan\Desktop\BilgeAdam_Market\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Core.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Map.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Model.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Utility.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\PagedList.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\PagedList.Mvc.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Core.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Core.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Map.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Map.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Model.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Model.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Utility.pdb
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\BilgeAdam.Utility.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\PagedList.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\bin\Debug\PagedList.Mvc.xml
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.csprojAssemblyReference.cache
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.csproj.CopyComplete
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.dll
+C:\Users\Furkan\Desktop\BilgeAdam_Market-master\BilgeAdam_Market-master\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.DAL.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Core.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Map.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Model.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Utility.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\PagedList.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\PagedList.Mvc.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Core.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Core.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Map.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Map.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Model.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Model.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Utility.pdb
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\BilgeAdam.Utility.dll.config
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\PagedList.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\bin\Debug\PagedList.Mvc.xml
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.csprojAssemblyReference.cache
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.csproj.CopyComplete
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.dll
+C:\Users\Furkan\Desktop\BilgeAdam\BilgeAdam\BilgeAdam.DAL\obj\Debug\BilgeAdam.DAL.pdb
